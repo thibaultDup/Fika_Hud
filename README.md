@@ -5,7 +5,7 @@
 
 ---
 
-Fork's Author : thibaultD
+Fork's Author : thibaultDup
 
 Original project : Kl_HudV2
 
