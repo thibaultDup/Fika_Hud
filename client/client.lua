@@ -58,7 +58,7 @@ Citizen.CreateThread(function()
 		TriggerEvent("Fika_Hud:updateStatus")
 		
 		--Appel de l'event server permetant de récupérer la quantité d'argent présente sur le compte de la société auquel le joueur appartient
-		TriggerServerEvent('Kl_Hud:GetSocietyAccount')
+		TriggerServerEvent('Fika_Hud:GetSocietyAccount')
 		
 		
 		--TODO:PRINT POUR COMPARER LA VALEUR DE [PlayerPedId] et la valeur de [PlayerPed]
