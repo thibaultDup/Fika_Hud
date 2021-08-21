@@ -15,6 +15,7 @@ Original project : Kl_HudV2
 - Dynamic color changing of stats when reaching thresholds :red_square:
 - Display of the players money accounts (wallet, bank, dirty money) :dollar:
 - Display of the company money accounts (only displayed for the company's PDG) :dollar:
+- Display of the clock (top right of the screen) :clock12:
 
 
 ## Removed Features: 

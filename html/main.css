@@ -10,9 +10,11 @@ body {
 #StatusHud 
 {
     position: absolute;
-    bottom: 0.7vh;
-    left: 0.7vh;
+	#bottom: 4.7vh;
+	bottom: 25.7vh;
+    right: 2.0vh;
 }
+
 /*? ID Selectors */
 
 
@@ -21,7 +23,8 @@ body {
 {
     background-color: rgba(0, 0, 0, 0.767);
     color: white;
-    padding: 0.7vh;
+    padding: 1.2vh;
+	padding-right: 2.0vh;
     text-align: center;
     margin-top: 0.2vh;
     border-radius: 0.4vh;
@@ -33,19 +36,111 @@ body {
 }
 .textstat 
 {
-    width: 2vh;
+    width: 1.5vh;
     float: right;
     text-align: right;
-    font-size: 1.0vh;
-    margin-top: -0.25vh;
+    font-size: 2.0vh;
+	margin-left: 0.2vh;
+    margin-top: -1.0vh;
+	padding-left: 0.3vh;
 }
-.red 
+
+/* Les trois classes ci-dessous gérent le changement de couleur de fond des statistiques quand l'une des statistique atteint un certain niveau. */
+.redBack1
 {
-    width: 2.2vh;
-    float: right;
-    padding-left: 0.5vh;
-    text-align: right;
-    font-size: 1.0vh;
-    color: red;
+  /*TEST
+	background-color: rgba(0, 0, 0, 0.767);
+	color: rgba(255, 105, 105); */
+    background-color: rgba(255, 105, 105);
+    color: white;
+    padding: 1.2vh;
+	padding-right: 2.0vh;
+    text-align: center;
+    margin-top: 0.2vh;
+    border-radius: 0.4vh;	
+}
+.redBack2
+{
+    background-color: rgba(255, 74, 74);
+    color: white;
+    padding: 1.2vh;
+	padding-right: 2.0vh;
+    text-align: center;
+    margin-top: 0.2vh;
+    border-radius: 0.4vh;	
+}
+.redBack3
+{
+    background-color: rgba(255, 0, 0);
+    color: white;
+    padding: 1.2vh;
+	padding-right: 2.0vh;
+    text-align: center;
+    margin-top: 0.2vh;
+    border-radius: 0.4vh;	
 }
 /*! Class Selectors */
+
+
+
+hr{
+}
+
+#money
+{
+	color: white;
+	position: absolute;
+	#bottom: 24.0vh;
+	bottom:	45.0vh;
+    right: 2.0vh;
+}
+
+.textMoneyWallet
+{
+	
+    float: right;
+    font-size: 2.0vh;
+	margin-left: 1.2vh;
+    margin-top: -1.0vh;
+}
+
+.textMoneyBank
+{
+    float: right;
+    font-size: 2.0vh;
+	margin-left: 1.2vh;
+    margin-top: -1.0vh;
+}
+
+.textMoneyDirty
+{
+    float: right;
+    font-size: 2.0vh;
+	margin-left: 1.2vh;
+    margin-top: -1.0vh;
+}
+
+.textMoneyCompany
+{
+	float: right;
+    font-size: 2.0vh;
+	margin-left: 1.2vh;
+    margin-top: -1.0vh;
+}
+
+
+#clock
+{
+	color: white;
+	position: absolute;
+    top: 3.0vh;
+    right: 2.0vh;	
+}
+
+.textClockDisplay
+{
+	font-size: 2.0vh;
+}
+
+/* START TEST */
+/* END TEST */
